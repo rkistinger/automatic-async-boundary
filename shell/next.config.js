@@ -9,7 +9,7 @@ const nextConfig = {
         name: 'shell',
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
-          './AppProviders': './src/components/AppProviders.tsx',
+          './AppProviders': './components/AppProviders.tsx',
         },
         shared: {
           '@apollo/client': {
